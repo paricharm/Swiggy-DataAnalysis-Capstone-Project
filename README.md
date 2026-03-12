@@ -1,20 +1,158 @@
-# Data Analytics in Sales Domain
+#  Swiggy Sales Analysis | End-to-End Data Analytics Project
+🚀 This project delivers a complete data analytics solution using SQL, Excel, and Power BI to transform raw food delivery data into meaningful business insights.
+It covers data cleaning, modeling, KPI creation, and interactive dashboard development for data-driven decision-making.
+________________________________________
+## 📌 Project Overview
+This project analyzes food delivery data across multiple dimensions such as location, restaurant performance, customer spending, and ratings.
+The goal is to build a scalable analytics system and create interactive dashboards to track key performance indicators.
+________________________________________
+## 🛠️ Tech Stack
+•	🗄️ SQL – Data Cleaning, Transformation, Star Schema Modeling
 
-## Overview
-This project focuses on applying data analytics techniques to the sales domain. The goal is to derive insights that can help improve sales performance and drive business strategies.
+•	📊 Excel – Data Validation & Preprocessing
 
-## Excel Sheet
-- The Excel file provided in the repository is used in the project.
+•	📈 Power BI – Data Modeling, DAX, Dashboard Visualization
 
-## Files Included
-- Detailed reports
-- Code files
-- Documentation on analytics methodologies
-- Visualizations and dashboards
+________________________________________
+## 🧹 Data Cleaning & Validation
+Ensured high data quality using SQL:
 
-## Contact
-For inquiries or collaboration opportunities, please reach out via GitHub.
+•	✔️ Null value detection
 
----
+•	✔️ Blank value handling
 
-Thank you for your support! Your engagement helps improve the project and make more resources available.
+•	✔️ Duplicate identification
+
+•	✔️ Duplicate removal using ROW_NUMBER()
+
+________________________________________
+## 🏗️ Data Modeling (Star Schema)
+
+Built an optimized Star Schema for efficient analysis:
+Dimension Tables
+
+•	dim_date → Year, Month, Quarter, Week
+
+•	dim_location → State, City, Location
+
+•	dim_restaurant → Restaurant Name
+
+•	dim_category → Cuisine
+
+•	dim_dish → Dish Name
+
+Fact Table
+•	fact_orders → Price, Rating, Rating_Count + Foreign Keys
+
+📊 This structure improves performance and simplifies reporting.
+________________________________________
+## 📊 Key Performance Indicators (KPIs)
+
+Basic Metrics
+
+•	Total Orders
+
+•	Total Revenue
+
+•	Average Dish Price
+
+•	Average Rating
+
+Advanced Analysis
+
+📅 Date-Based Insights
+
+•	Monthly Trends
+
+•	Quarterly Growth
+
+•	Year-wise Performance
+
+•	Day-of-Week Patterns
+
+📍 Location Analysis
+
+•	Top Cities by Orders
+
+•	Revenue by State
+
+🍛 Food Performance
+
+•	Top Restaurants
+
+•	Top Categories (Indian, Chinese, etc.)
+
+•	Most Ordered Dishes
+
+💰 Customer Spending
+
+•	Order Value Distribution:
+
+o	Under 100
+
+o	100–199
+
+o	200–299
+
+o	300–499
+
+o	500+
+
+⭐ Ratings Analysis
+
+•	Rating Distribution (1–5)
+________________________________________
+# 📈 Power BI Dashboard Features
+
+•	Interactive filters (Slicers)
+
+•	KPI Cards for quick insights
+
+•	Time-based trend analysis
+
+•	Location-based performance
+
+•	Restaurant & category analysis
+________________________________________
+## 📷 Dashboard Preview
+
+👉Power BI: https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy%20bi%20project.pbix
+
+👉SQL : https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy%20db.sql
+
+👉Dashboard: https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy%20power%20bi%20file.png
+
+_______________________________________
+##📊 Key Insights
+
+•	Identified top-performing cities and restaurants
+
+•	Analyzed customer spending behavior
+
+•	Discovered high-demand food categories
+
+•	Evaluated rating trends and customer satisfaction
+
+________________________________________
+##🎯 Project Outcome
+
+This project demonstrates:
+
+✔️ End-to-End Data Analytics Workflow
+
+✔️ Data Cleaning & Transformation using SQL
+
+✔️ Dimensional Modeling (Star Schema)
+
+✔️ KPI Development using DAX
+
+✔️ Interactive Dashboard Creation
+________________________________________
+## 🔗 Dataset
+👉 https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy_data.xlsx
+________________________________________
+## 🧠 Conclusion
+
+This project showcases how raw data can be transformed into actionable business insights using modern analytics tools.
+By combining SQL, Excel, and Power BI, we created a scalable and efficient analytics solution that helps businesses make data-driven decisions.
+
