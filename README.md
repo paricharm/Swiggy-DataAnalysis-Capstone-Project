@@ -116,11 +116,8 @@ ________________________________________
 ________________________________________
 ## 📷 Dashboard Preview
 
-👉Power BI: https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy%20bi%20project.pbix
-
-👉SQL : https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy%20db.sql
-
-👉Dashboard: https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy%20power%20bi%20file.png
+👉Power BI:
+👉Excel: 
 
 _______________________________________
 ##📊 Key Insights
@@ -147,9 +144,6 @@ This project demonstrates:
 ✔️ KPI Development using DAX
 
 ✔️ Interactive Dashboard Creation
-________________________________________
-## 🔗 Dataset
-👉 https://github.com/KanchanaKondala/Data-Analytics-Swiggy-Analysis-EXCEL-SQL-POWER-BI/blob/main/swiggy_data.xlsx
 ________________________________________
 ## 🧠 Conclusion
 
